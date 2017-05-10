@@ -28,7 +28,7 @@ Bootstrap is a **library of CSS classes** that helps make any old site look nice
 - Write custom HTML & CSS
 - Include external stylesheets
 
-##What is Class-based CSS?
+## What is Class-based CSS?
 
 Create modular classes that *encapsulate* a certain behavior and name them semantically.
 
@@ -246,7 +246,7 @@ What will this code do?
 
 
 
-For other examples, check out the [Bootstrap docs](http://getbootstrap.com/css/#grid)  
+For other examples, check out the [Bootstrap docs](http://getbootstrap.com/css/#grid).
 
 ## Offsets & Nesting
 You can also offset and nest your columns. When you offset a column, you add a column of whitespace and push the column to the right.  Example:
@@ -258,7 +258,7 @@ You can also offset and nest your columns. When you offset a column, you add a c
    </div>
  </div>
 ```
-Here is an example of nesting columns (putting one row inside another)
+Here is an example of nesting columns (putting one row inside another):
 
 ```html
  <div class="row">
