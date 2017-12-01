@@ -81,7 +81,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design)
 
 Bootstrap comes with a ton of features, including:
 
-- [Responsive Grid System](https://getbootstrap.com/examples/grid/)
+- [Responsive Grid System](https://getbootstrap.com/docs/4.0/examples/grid/)
 - CSS library for quick and easy styling
 - UI components - HTML + CSS
   - buttons
