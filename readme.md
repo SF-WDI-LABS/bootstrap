@@ -73,7 +73,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design)
 
 ## Intro to Bootstrap
 ![bootstrap example](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Twitter_Bootstrap_Under_Firefox_32.png/1200px-Twitter_Bootstrap_Under_Firefox_32.png)
-* [Bootstrap](http://getbootstrap.com/) is a **front-end framework** created by a small team of developers at Twitter and maintained by a much larger community of contributors.
+* [Bootstrap](http://getbootstrap.com/) is a **CSS framework** created by a small team of developers at Twitter and maintained by a much larger community of contributors.
 * The framework consists of one main CSS file, an optional theme CSS file, and a main JS file.
 * Parts of Bootstrap require [jQuery](https://code.jquery.com/) to work.
 * To apply bootstrap styles, you just add classes to your HTML elements. The Bootstrap CSS files style these classes in complex ways.
@@ -184,10 +184,10 @@ To use the grid system we must put a row in our container:
 * For example: `col-sm-4`
 
  Then select what screen size we'll want it to display on:
-  - `col-xs` < 768px (e.g. smartphones)
-  - `col-sm` ≥ 992px (e.g. tablets)
-  - `col-md` ≥ 1200px (e.g. laptops, desktops)
-  - `col-lg` ≥ 1200px (e.g. large desktops, smart TVs)
+  - `col-` < 768px (e.g. smartphones)
+  - `col-sm-` ≥ 992px (e.g. tablets)
+  - `col-md-` ≥ 1200px (e.g. laptops, desktops)
+  - `col-lg-` ≥ 1200px (e.g. large desktops, smart TVs)
 
 * At screen sizes smaller than the specified screen sizes, the columns will default to filling the width of the screen.
 
@@ -229,7 +229,7 @@ What will this code do?
   * `col-md-2`
   * `col-sm-1`
   * `col-lg-8`
-  * `col-xs-12`
+  * `col-12`
 
 
 1. Using the bootstrap grid, make a grid that is 3 Columns on Tablet (sm), Laptop (md), and Desktop (lg), 1 Column on Mobile(xs).
@@ -239,9 +239,9 @@ What will this code do?
 ```html
 <div class="row">
   <h3 class='text-center'>3 Columns on Tablet, Laptop, and Desktop, 1 Column on Mobile</h3>
-  <div class="col-sm-4 col-xs-12">Yao</div>
-  <div class="col-sm-4 col-xs-12">Hey</div>
-  <div class="col-sm-4 col-xs-12">Ola</div>
+  <div class="col-sm-4 col-12">Yao</div>
+  <div class="col-sm-4 col-12">Hey</div>
+  <div class="col-sm-4 col-12">Ola</div>
 </div>
 ```
 
@@ -256,7 +256,7 @@ You can also offset and nest your columns. When you offset a column, you add a c
 
 ```html
  <div class="row">
-   <div class="col-md-3 col-md-offset-3">
+   <div class="col-md-3 offset-md-3">
      <p>This column occupies 1/4 of the page width and is moved to the right by 1/4 of the page width</p>
    </div>
  </div>
@@ -302,7 +302,7 @@ More useful typography classes...
 ```
 
 #### Icons
-Bootstrap comes with a set of icons that can be included in your page using the `<i></i>` tag. Check out these icons [here](http://getbootstrap.com/components/#glyphicons)
+Bootstrap recommends several external icon libraries that can be included in your page. Check out those options [here](https://getbootstrap.com/docs/4.0/extend/icons/)
 
 #### Buttons
 Bootstrap provides a wide selection of button sizes and colors.  Button classes can be applied not just to `<button>` elements, but also `<a>` and `<input>` elements
